@@ -1,11 +1,17 @@
 import React from 'react';
-// import logo from './logo.svg';
-// import './App.css';
+import Hero from '../components/Hero'
+import Banner from '../components/Banner'
+import {Link} from 'react-router-dom'
 
 function Error() {
   return (
     <div>
-      hello from Error
+     <Hero>
+         <Banner title="404" subtitle="Page not found">
+             <Link to="/" className="btn-primary">Go to HomePage</Link>
+</Banner>
+
+         </Hero>
     </div>
   );
 }

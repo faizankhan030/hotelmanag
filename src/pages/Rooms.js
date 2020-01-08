@@ -1,11 +1,17 @@
 import React from 'react';
-// import logo from './logo.svg';
-// import './App.css';
-
+import Hero from '../components/Hero'
+import Banner from '../components/Banner'
+import {Link} from 'react-router-dom'
 const Rooms = () => {
   return (
     <div>
-      hello from Rooms
+        <Hero hero="roomsHero">
+            <Banner title="OUR ROOMS">
+                <Link to="/" className="btn-primary">Go to Home</Link>
+                </Banner>
+            
+            </Hero>
+       
     </div>
   );
 }
