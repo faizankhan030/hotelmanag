@@ -1,10 +1,14 @@
 import React,{Component} from 'react';
-// import logo from './logo.svg';
+
 // import './App.css';
 
 export default class SingleRoom extends Component {
     render (){
-        return ("hello from single room");
+        
+        return (<div>
+        <br />
+               <br />
+                      <br />"hello from single room"</div>);
     }
 }
 
